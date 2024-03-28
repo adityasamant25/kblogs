@@ -656,3 +656,20 @@ multipass purge
 
 > [!CAUTION]
 > Purging an instance also deletes all the snapshots associated with this instance. In other words, the VMs cannot be recovered after being purged.
+
+
+## Resources
+Here are the links to the resources referred in this blog post:
+* [Kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/) - Page describing the `kubeadm` tool in the official Kubernetes documentation.
+* [Installing Kubernetes via kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/) - The official Kubernetes documentation describing the steps involved in installing a cluster through `kubeadm`.
+* [Multipass overview](https://multipass.run/) - An overview of `multipass` by Canonical, a tool to provision Ubuntu VMs on local machines.
+* [Multipass installation](https://multipass.run/install) - Steps to install the `multipass` tool.
+* [Multipass instance management](https://multipass.run/docs/how-to-guides#heading--manage-instances) - Documentation on managing instances created by `multipass`.
+* [Static IP provisioning](https://multipass.run/docs/configure-static-ips) - Steps to provision a static IP for a VM, which can persist over restarts.
+* [Multipass snapshot](https://multipass.run/docs/snapshot-command) - Instructions related to capturing a snapshot (backup) of a `multipass` instance.
+* [Multipass restore](https://multipass.run/docs/restore-command) - Instructions related to restoring an instance from a snapshot.
+* [Releases for containerd](https://github.com/containerd/containerd/releases) - This page holds all the releases for `containerd`.
+* [Releases for runc](https://github.com/opencontainers/runc/releases) - This page holds all the releases for `runc`.
+* [Releases for the CNI plugin](https://github.com/containernetworking/plugins/releases) - This page holds all the releases for the CNI plugin.
+* [Pod network add-ons](https://kubernetes.io/docs/concepts/cluster-administration/addons/#networking-and-network-policy) - A list of all compatible Pod network add-ons as per the official Kubernetes documentation.
+* [ReWeave](https://github.com/rajch/weave#using-weave-on-kubernetes) - An actively maintained fork of the Weave Net project.
